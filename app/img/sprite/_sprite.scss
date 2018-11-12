@@ -1,0 +1,189 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$ar-big-name: 'ar-big';
+$ar-big-x: 0px;
+$ar-big-y: 0px;
+$ar-big-offset-x: 0px;
+$ar-big-offset-y: 0px;
+$ar-big-width: 97px;
+$ar-big-height: 97px;
+$ar-big-total-width: 155px;
+$ar-big-total-height: 149px;
+$ar-big-image: 'sprite.png';
+$ar-big: (0px, 0px, 0px, 0px, 97px, 97px, 155px, 149px, 'sprite.png', 'ar-big', );
+$ar-tv-name: 'ar-tv';
+$ar-tv-x: 98px;
+$ar-tv-y: 0px;
+$ar-tv-offset-x: -98px;
+$ar-tv-offset-y: 0px;
+$ar-tv-width: 57px;
+$ar-tv-height: 56px;
+$ar-tv-total-width: 155px;
+$ar-tv-total-height: 149px;
+$ar-tv-image: 'sprite.png';
+$ar-tv: (98px, 0px, -98px, 0px, 57px, 56px, 155px, 149px, 'sprite.png', 'ar-tv', );
+$ar-tv-mob-slider-name: 'ar-tv_mob-slider';
+$ar-tv-mob-slider-x: 0px;
+$ar-tv-mob-slider-y: 98px;
+$ar-tv-mob-slider-offset-x: 0px;
+$ar-tv-mob-slider-offset-y: -98px;
+$ar-tv-mob-slider-width: 51px;
+$ar-tv-mob-slider-height: 51px;
+$ar-tv-mob-slider-total-width: 155px;
+$ar-tv-mob-slider-total-height: 149px;
+$ar-tv-mob-slider-image: 'sprite.png';
+$ar-tv-mob-slider: (0px, 98px, 0px, -98px, 51px, 51px, 155px, 149px, 'sprite.png', 'ar-tv_mob-slider', );
+$ar-tv-mob-name: 'ar-tv_mob';
+$ar-tv-mob-x: 98px;
+$ar-tv-mob-y: 57px;
+$ar-tv-mob-offset-x: -98px;
+$ar-tv-mob-offset-y: -57px;
+$ar-tv-mob-width: 36px;
+$ar-tv-mob-height: 35px;
+$ar-tv-mob-total-width: 155px;
+$ar-tv-mob-total-height: 149px;
+$ar-tv-mob-image: 'sprite.png';
+$ar-tv-mob: (98px, 57px, -98px, -57px, 36px, 35px, 155px, 149px, 'sprite.png', 'ar-tv_mob', );
+$arr-2-name: 'arr-2';
+$arr-2-x: 98px;
+$arr-2-y: 98px;
+$arr-2-offset-x: -98px;
+$arr-2-offset-y: -98px;
+$arr-2-width: 21px;
+$arr-2-height: 9px;
+$arr-2-total-width: 155px;
+$arr-2-total-height: 149px;
+$arr-2-image: 'sprite.png';
+$arr-2: (98px, 98px, -98px, -98px, 21px, 9px, 155px, 149px, 'sprite.png', 'arr-2', );
+$arr-sel-name: 'arr-sel';
+$arr-sel-x: 120px;
+$arr-sel-y: 98px;
+$arr-sel-offset-x: -120px;
+$arr-sel-offset-y: -98px;
+$arr-sel-width: 15px;
+$arr-sel-height: 7px;
+$arr-sel-total-width: 155px;
+$arr-sel-total-height: 149px;
+$arr-sel-image: 'sprite.png';
+$arr-sel: (120px, 98px, -120px, -98px, 15px, 7px, 155px, 149px, 'sprite.png', 'arr-sel', );
+$arr-slider-name: 'arr-slider';
+$arr-slider-x: 135px;
+$arr-slider-y: 57px;
+$arr-slider-offset-x: -135px;
+$arr-slider-offset-y: -57px;
+$arr-slider-width: 20px;
+$arr-slider-height: 34px;
+$arr-slider-total-width: 155px;
+$arr-slider-total-height: 149px;
+$arr-slider-image: 'sprite.png';
+$arr-slider: (135px, 57px, -135px, -57px, 20px, 34px, 155px, 149px, 'sprite.png', 'arr-slider', );
+$arr-white-name: 'arr-white';
+$arr-white-x: 52px;
+$arr-white-y: 98px;
+$arr-white-offset-x: -52px;
+$arr-white-offset-y: -98px;
+$arr-white-width: 20px;
+$arr-white-height: 34px;
+$arr-white-total-width: 155px;
+$arr-white-total-height: 149px;
+$arr-white-image: 'sprite.png';
+$arr-white: (52px, 98px, -52px, -98px, 20px, 34px, 155px, 149px, 'sprite.png', 'arr-white', );
+$arr-name: 'arr';
+$arr-x: 136px;
+$arr-y: 98px;
+$arr-offset-x: -136px;
+$arr-offset-y: -98px;
+$arr-width: 13px;
+$arr-height: 7px;
+$arr-total-width: 155px;
+$arr-total-height: 149px;
+$arr-image: 'sprite.png';
+$arr: (136px, 98px, -136px, -98px, 13px, 7px, 155px, 149px, 'sprite.png', 'arr', );
+$cancel-name: 'cancel';
+$cancel-x: 73px;
+$cancel-y: 98px;
+$cancel-offset-x: -73px;
+$cancel-offset-y: -98px;
+$cancel-width: 24px;
+$cancel-height: 24px;
+$cancel-total-width: 155px;
+$cancel-total-height: 149px;
+$cancel-image: 'sprite.png';
+$cancel: (73px, 98px, -73px, -98px, 24px, 24px, 155px, 149px, 'sprite.png', 'cancel', );
+$spritesheet-width: 155px;
+$spritesheet-height: 149px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($ar-big, $ar-tv, $ar-tv-mob-slider, $ar-tv-mob, $arr-2, $arr-sel, $arr-slider, $arr-white, $arr, $cancel, );
+$spritesheet: (155px, 149px, 'sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url('img/sprite/#{$sprite-image}');
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

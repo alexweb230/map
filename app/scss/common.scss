@@ -1,0 +1,16 @@
+//core
+@import "core/vars";
+@import "core/mix";
+@import "core/settings";
+@import "core/buttons";
+//sprite
+@import "../img/sprite/sprite";
+
+@import "themes";
+@import "main";
+h1 {
+  color: aqua;
+  border: 3px solid red;
+  font-size: 30px;
+  @include sprite($cancel);
+}

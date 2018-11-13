@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900');
+
 .map-interactive{
+  font-family: 'Roboto', sans-serif;
   .map{
-    border: 1px solid;
     width:775px;
     margin: 0 auto;
     text-align: center;
@@ -18,6 +20,29 @@
           fill: rgba(0,0,0, 0.3);
         }
       }
+    }
+  }
+  .description{
+    background-color: #f8f8f8;
+    box-shadow: 0 0 3px rgba(0,0,0,.25);
+    position: absolute;
+    display: none;
+    z-index:999;
+    padding:  5px 10px 10px;
+    border-radius: 3px;
+    top:0;
+    left:0;
+    max-width:270px;
+    .h4{
+      margin: 0;
+      text-transform: capitalize;
+      font-weight: 500;
+    }
+    .count-all{
+      font-size: 11px;
+      display: block;
+      color: #868181;
+      padding-top: 2px;
     }
   }
 }

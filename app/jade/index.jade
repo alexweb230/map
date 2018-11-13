@@ -8,11 +8,15 @@ html
     .map-interactive
         .map
             svg.svg-box(viewBox=" 0 0 697 473")
-             include map-fraction/path-1
-             include map-fraction/path-2
-             include map-fraction/path-3
-
+                include map-fraction/path-1
+                include map-fraction/path-2
+                include map-fraction/path-3
             img(src="img/jpg/map.png")
+        .description#descr
+            h4.h4 название области
+            span.count-all 100% проголосовало
+            ul.table
+                li
 
 
 

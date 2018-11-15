@@ -2,9 +2,20 @@ doctype
 html
     head
         link(rel="stylesheet"  href="css/common.css")
+        script(type="text/javascript" src="https://www.gstatic.com/charts/loader.js")
         script(src="js/libs.min.js")
         script(src="js/main.js")
     body
+
+    .main-box
+        .content.heading
+            h1 Результаты президентских выборов
+        .content.rating
+            h2
+                |Результаты кандидатов,подсчитано 99,94% голосов
+
+            div#myPieChart
+
     .map-interactive
         .map
             svg.svg-box(viewBox=" 0 0 697 473")
@@ -13,31 +24,27 @@ html
                 include map-fraction/path-3
             img(src="img/jpg/map.png")
         .description#descr
-            h4.h4 название области
+            h4.h4
             span.count-all 100% проголосовало
             ul.table-data
-                li.table-data-row
+                li.table-data-row.first
                     span.table-data-item кандидат
                     span.table-data-item партия
                     span.table-data-item голоса
                     span.table-data-item процент
+
                 li.table-data-row
-                    span.table-data-item.name обиван киноби
-                    span.table-data-item S.Wars
-                    span.table-data-item 396.180
-                    span.table-data-item.pr 58.1%
-                li.table-data-row
-                    span.table-data-item.name Шанг-Сунг
-                    span.table-data-item M.Combat
-                    span.table-data-item 196.180
-                    span.table-data-item.pr 28.1%
-                li.table-data-row
-                    span.table-data-item.name порошенко
+                    span.table-data-item.name п.порошенко
                     span.table-data-item БПП
                     span.table-data-item 96.180
                     span.table-data-item.pr 8.1%
                 li.table-data-row
-                    span.table-data-item.name тимошенко
+                    span.table-data-item.name и.иванов
+                    span.table-data-item БПП
+                    span.table-data-item 96.180
+                    span.table-data-item.pr 18.1%
+                li.table-data-row
+                    span.table-data-item.name ю.тимошенко
                     span.table-data-item S.Wars
                     span.table-data-item 36.180
                     span.table-data-item.pr 2.1%

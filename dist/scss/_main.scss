@@ -32,7 +32,6 @@
     background-color: #f8f8f8;
     box-shadow: 0 0 3px rgba(0,0,0,.25);
     position: absolute;
-    display: none;
     z-index:999;
     padding:  5px 10px 10px;
     border-radius: 3px;
@@ -73,6 +72,9 @@
           }
         }
       }
+    }
+    &.hidden{
+      display: none;
     }
   }
 }

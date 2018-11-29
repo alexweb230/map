@@ -8,10 +8,10 @@ gulp.task('default', function () {
         'sass',
         'inject',
         'scripts',
-        'image',
+        // 'image',
         'build',
         'browser',
-        'build:watch',
+         'build:watch',
         'sass:watch',
         'jade:watch'
 

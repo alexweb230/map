@@ -1,15 +1,28 @@
 $(document).ready(function () {
 
+
+
     $(".path").hover(
         function () {
             let data = $(this).attr('data-region');
+            let dataCount= $(this).attr('data-count-1');
+            console.log(dataCount);
             $('#descr').show();
             $('#descr .h4').html(data);
+            $('.precent').html(`${dataCount}%`);
+            $('.progress .progress-item').css("width", dataCount + "%");
         },
         function () {
             $('#descr').hide();
         }
-    )
+    );
+
+
+
+
+
+
+
     $(".path").mousemove(
         function (pos) {
             $("#descr")
@@ -19,28 +32,9 @@ $(document).ready(function () {
     );
 
 
+
+
+
 });
-// Load google charts
 
-let first = "П.Порошенко",
-    second = "Ю.Тимошенко",
-    three = "В.Рабинович";
-google.charts.load('current', {'packages': ['corechart']});
-google.charts.setOnLoadCallback(drawChart);
 
-function drawChart() {
-    // Define the chart to be drawn.
-    var data = new google.visualization.DataTable();
-    data.addColumn('string', 'Element');
-    data.addColumn('number', 'Percentage');
-    data.addRows(
-        [
-            [first, 60],
-            [second, 20],
-            [three, 20]
-        ]);
-    var options = {'width': 600, 'height': 500};
-    // Instantiate and draw the chart.
-    var chart = new google.visualization.PieChart(document.getElementById('myPieChart'));
-    chart.draw(data, options);
-}

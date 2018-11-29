@@ -5,14 +5,7 @@
   padding-bottom: 50px;
   font-family: 'Roboto', sans-serif;
 }
-.rating{
-  .progress{
-    display: flex;
-    .progress-item{
 
-    }
-  }
-}
 .map-interactive{
   font-family: 'Roboto', sans-serif;
   .map{
@@ -46,6 +39,7 @@
     top:0;
     left:0;
     max-width:300px;
+    width: 100%;
     .h4{
       margin: 0;
       text-transform: capitalize;
@@ -58,34 +52,25 @@
       color: #868181;
       padding-top: 3px;
     }
-    .table-data{
-      &-row{
-        color: #868181;
-        font-size: 11px;
-        display: grid;
-        grid-template-columns: 100px 70px repeat(2, 1fr);
-        border-bottom: 1px solid #e2dcdc;
-        .table-data-item{
-          padding: 8px;
-          text-align: right;
-          color: #000;
-          &:nth-child(1){
-            padding-left: 0;
-            text-align: left;
+    .count-data{
+      padding-top: 5px;
+      &-item{
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        border-bottom:1px solid silver;
+        padding:7px 0;
+        .progress{
+          width: 100%;
+          margin: 0 10px;
+          display: block;
+          &-item{
+            width:0%;
+            background: red;
+            display: block;
+            height: 100%;
+            transition: .2s;
           }
-          &:nth-last-child(1){
-            padding-right: 0;
-          }
-          &.name{
-            text-transform: capitalize;
-          }
-          &.pr{
-            font-weight: 600;
-          }
-        }
-        &.first{
-          font-weight: 500;
-          font-weight: 12px;
         }
       }
     }

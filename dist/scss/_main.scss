@@ -63,12 +63,18 @@
           width: 100%;
           margin: 0 10px;
           display: block;
+          flex-shrink: 10;
           &-item{
             width:0%;
             background: red;
             display: block;
             height: 100%;
             transition: .2s;
+          }
+        }
+        .count-el{
+          &.name{
+            width: 90px;
           }
         }
       }
